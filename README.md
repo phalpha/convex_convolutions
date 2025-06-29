@@ -1,11 +1,9 @@
 # A Convex Approach to Two-Layer Convolutional Neural Networks
 
-## Overview
+### Overview
 
 In this project, our team investigated whether we could apply convex optimization (mathematical problems with guaranteed optimal solutions) to convolutional neural networks (CNNs - the type of AI models great at recognizing images) for classifying pictures. Instead of using the typical training methods that can get stuck finding "good enough" solutions, we reformulated the entire problem to find the absolute minima every time with convex optimization.
 
-
-## What We Built
 
 ### The Core Magic
 - **Convex Optimization**: We transformed the usual messy, non-convex convolutional neural network training into a convex problem.
@@ -34,7 +32,7 @@ We reformulated two-layer CNNs using something called semidefinite programming -
 - **NumPy** - Essential for all the matrix math
 - **CIFAR-10/CIFAR-2** - Standard image datasets for testin
 
-## What We Achieved
+### What We Achieved
 
 ### Performance Numbers
 - **Binary Classification**: Hit 84.05% test accuracy (compared to 88.90% with traditional methods)
