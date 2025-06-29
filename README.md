@@ -8,9 +8,9 @@ In this project, our team investigated whether we could apply convex optimizatio
 ## What We Built
 
 ### The Core Magic
-- **Convex Optimization**: We transformed the usual messy, non-convex neural network training into a clean mathematical problem with guaranteed solutions
+- **Convex Optimization**: We transformed the usual messy, non-convex convolutional neural network training into a convex problem.
 - **Smart Activation Functions**: Instead of the standard ReLU activation, we used polynomial functions (fancy curves) that behaved similarly but played nicely with convex math
-- **No More Local Minima**: Unlike regular neural networks that might get stuck in "pretty good" solutions, our approach was guaranteed to find the globally best solution
+- **No More Local Minima**: Unlike regular neural networks that might get stuck in "pretty good" solutions, our convex approach was guaranteed to find the globally best solution
 
 <br>
 
